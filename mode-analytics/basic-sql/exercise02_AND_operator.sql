@@ -2,10 +2,11 @@
 -- Course: ThoughtSpot / Mode Analytics Tutorial
 -- Chapter: Basic SQL 
 -- Available Tables: tutorial.billboard_top_100_year_end
--- Exercise Goals: Get used to the ISNULL operator.
---                 Identify tracks that are missing a song title in the database.
+-- Exercise Goals: Get used to the AND operator.
+--                 Identify all rows for top-10 hits for which Ludacris is part of the Group.
 -- ===================================================================
 
 SELECT *
-FROM tutorial.billboard_top_100_year_end
-WHERE song_name IS NULL OR TRIM(song_name) = '';
+  FROM tutorial.billboard_top_100_year_end
+WHERE year_rank <= 10
+  AND "group_name" ILIKE '%Ludacris%';
