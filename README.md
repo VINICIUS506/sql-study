@@ -12,7 +12,10 @@ Welcome! This repository serves as my permanent, centralized hub for database en
 ## 📁 Courses & Tutorials
 *Structured code notebooks tracking my curriculum progress, notes, and implementations.*
 
-*   **[ThoughtSpot / Mode Analytics](./mode-analytics/)** — A comprehensive, deep-dive curriculum covering Foundational, Intermediate, and Advanced SQL concepts.
+*   **[ThoughtSpot / Mode Analytics](./mode-analytics/)** — A comprehensive, deep-dive curriculum covering foundational, intermediate, and advanced database analytics.
+    *   📂 [Basic SQL](./mode-analytics/basic-sql/) — `SELECT`, `WHERE`, `LIMIT`, logical operators, and comparison filters.
+    *   📂 Intermediate SQL (Coming Soon) — Aggregations, `GROUP BY`, and table `JOINs`.
+    *   📂 Advanced SQL (Coming Soon) — Subqueries, Window Functions, and performance optimizations.
 
 ---
 *Last updated: 2026. Built as a long-term knowledge repository.*
