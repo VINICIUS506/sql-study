@@ -7,5 +7,5 @@
 -- ===================================================================
 
 SELECT *
-FROM tutorial_billboard_top_100_year_end
+FROM tutorial.billboard_top_100_year_end
 WHERE song_name IS NULL OR TRIM(song_name) = '';
