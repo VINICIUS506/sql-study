@@ -47,6 +47,6 @@ SELECT year,
         west/(west + south + midwest + northeast)*100 AS west_pct,
         south/(west + south + midwest + northeast)*100 AS south_pct,
         midwest/(west + south + midwest + northeast)*100 AS midwest_pct,
-        northeast/(west + south + midwest + northeast)*100 AS northeast_pct
+        northeast/(west + south + midwest + northeast)*100 AS northeast_pct 
     FROM tutorial.us_housing_units
 WHERE year >= 2000;
